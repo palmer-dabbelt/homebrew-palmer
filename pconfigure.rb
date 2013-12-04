@@ -10,6 +10,7 @@ class Pconfigure < Formula
 
   def install
     system "sed", "-i", "bak", "s/soname/install_name/g", "Configfiles/main"
+    system "sed", "-i", "bak", "s/1024/10240/g", "src/pconfigure/main.c"
     system "bash", "-ex", "./bootstrap.sh", "--prefix", "#{prefix}"
     system "make", "install"
   end
