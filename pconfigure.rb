@@ -7,6 +7,7 @@ class Pconfigure < Formula
 
   depends_on 'pkg-config' => :build
   depends_on 'talloc'
+  depends_on 'xz'
 
   def install
     system "sed", "-i", "bak", "s/soname/install_name/g", "Configfiles/main"
