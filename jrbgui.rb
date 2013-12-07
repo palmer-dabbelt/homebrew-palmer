@@ -12,6 +12,7 @@ class Jrbgui < Formula
   depends_on 'portaudio'
   depends_on 'homebrew/science/opencv'
   depends_on 'ilmbase'
+  depends_on 'palmer-dabbelt/palmer/fakegl'
 
   def install
     f = File.open("Configfile.local", "w")
