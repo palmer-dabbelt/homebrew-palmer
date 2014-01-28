@@ -1,9 +1,9 @@
 require 'formula'
 
 class Jrbgui < Formula
-  url      'https://github.com/palmer-dabbelt/jrbgui/archive/v0.1.6.tar.gz'
+  url      'https://github.com/palmer-dabbelt/jrbgui/archive/v0.1.7.tar.gz'
   homepage 'https://github.com/palmer-dabbelt/jrbgui'
-  sha1     '539f5c577dc5670dd5772adcc0e4a946169ce5a4'
+  sha1     'a1ce82bbdcfe817e9a03a39694566bfe0213d884'
 
   depends_on 'pkg-config' => :build
   depends_on 'palmer-dabbelt/palmer/pconfigure' => :build
@@ -18,12 +18,5 @@ class Jrbgui < Formula
     system "pconfigure"
     system "make"
     system "make", "install"
-  end
-
-  def patches
-    [
-     # Use pkg-config for OpenGL
-     "https://github.com/palmer-dabbelt/jrbgui/commit/347660d04577836672c25fb94b245155bbffd8bb.diff"
-    ]
   end
 end
