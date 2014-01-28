@@ -19,4 +19,11 @@ class Jrbgui < Formula
     system "make"
     system "make", "install"
   end
+
+  def patches
+    [
+     # Use pkg-config for OpenGL
+     "https://github.com/palmer-dabbelt/jrbgui/commit/347660d04577836672c25fb94b245155bbffd8bb.diff"
+    ]
+  end
 end
