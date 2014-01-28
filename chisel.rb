@@ -1,6 +1,6 @@
 require 'formula'
 
-class Pchisel < Formula
+class Chisel < Formula
   url      'https://github.com/ucb-bar/chisel/archive/v2.1.tar.gz'
   homepage 'https://github.com/ucb-bar/chisel'
   sha1     ''
