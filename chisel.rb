@@ -3,7 +3,7 @@ require 'formula'
 class Chisel < Formula
   url      'https://github.com/ucb-bar/chisel/archive/v2.1.tar.gz'
   homepage 'https://github.com/ucb-bar/chisel'
-  sha1     ''
+  sha1     '760ed89e7a5940197df1a8d300d83b97a9de93ae'
 
   depends_on 'pkg-config' => :build
   depends_on 'palmer-dabbelt/palmer/pconfigure' => :build
