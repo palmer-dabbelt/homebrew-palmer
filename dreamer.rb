@@ -7,7 +7,7 @@ class Dreamer < Formula
 
   depends_on 'pkg-config' => :build
   depends_on 'palmer-dabbelt/palmer/pconfigure' => :build
-  depends_on 'palmer-dabbelt/palmer/pchisel'
+  depends_on 'palmer-dabbelt/palmer/chisel'
   depends_on 'palmer-dabbelt/palmer/jrbgui'
   depends_on 'portmidi'
 
