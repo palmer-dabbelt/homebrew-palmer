@@ -10,6 +10,10 @@ class Chisel < Formula
   depends_on 'scala'
 
   def install
+    cl = File.open("Configfile.local", "w")
+    cl.puts("PREFIX = #{prefix}")
+    cl.close
+
     system "pconfigure"
     system "make"
     system "make", "install"
