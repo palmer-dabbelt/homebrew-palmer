@@ -15,6 +15,10 @@ class Jrbgui < Formula
   depends_on 'palmer-dabbelt/palmer/fakegl'
 
   def install
+    cl = File.open("Configfile.local", "w")
+    cl.puts("PREFIX = #{prefix}")
+    cl.close
+
     system "pconfigure"
     system "make"
     system "make", "install"
