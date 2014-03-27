@@ -1,9 +1,9 @@
 require 'formula'
 
 class Pconfigure < Formula
-  url      'https://github.com/palmer-dabbelt/pconfigure/archive/v0.7.2.tar.gz'
+  url      'https://github.com/palmer-dabbelt/pconfigure/archive/v0.7.3.tar.gz'
   homepage 'https://github.com/palmer-dabbelt/pconfigure/'
-  sha1     'c1131a00e209611a4761fdfe213c94e729f394a1'
+  sha1     '65722495ccfec79c2b2d0cd6e95d5dccbea9d859'
 
   depends_on 'pkg-config' => :build
   depends_on 'talloc'
