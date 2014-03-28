@@ -1,9 +1,9 @@
 require 'formula'
 
 class Vcddiff < Formula
-  url      'https://github.com/palmer-dabbelt/vcddiff/archive/v0.0.3.tar.gz'
+  url      'https://github.com/palmer-dabbelt/vcddiff/archive/v0.0.4.tar.gz'
   homepage 'https://github.com/palmer-dabbelt/vcddiff'
-  sha1     'a96b76c7549a8089d8fb05d1acfd309631ebf480'
+  sha1     '0fc980b5838bfcd116be8956b3aaa204685dae2c'
 
   depends_on 'pkg-config' => :build
   depends_on 'palmer-dabbelt/palmer/pconfigure' => :build
