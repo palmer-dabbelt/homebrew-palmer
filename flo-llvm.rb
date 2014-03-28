@@ -7,6 +7,7 @@ class FloLlvm < Formula
 
   depends_on 'pkg-config' => :build
   depends_on 'palmer-dabbelt/palmer/pconfigure' => :build
+  depends_on 'palmer-dabbelt/palmer/libflo'
   depends_on 'llvm'
 
   def install
