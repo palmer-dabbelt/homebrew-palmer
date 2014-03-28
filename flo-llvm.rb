@@ -14,7 +14,7 @@ class FloLlvm < Formula
     cl.puts("PREFIX = #{prefix}")
     cl.close
 
-    system "pconfigure"
+    system "pconfigure", "--verbose"
     system "make"
     system "make", "install"
   end
