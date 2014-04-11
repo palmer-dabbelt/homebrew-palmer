@@ -6,7 +6,7 @@ class Vcddiff < Formula
   sha1     '0fc980b5838bfcd116be8956b3aaa204685dae2c'
 
   depends_on 'pkg-config' => :build
-  depends_on 'palmer-dabbelt/palmer/pconfigure' => :build
+  depends_on 'pconfigure' => :build
 
   def install
     cl = File.open("Configfile.local", "w")
