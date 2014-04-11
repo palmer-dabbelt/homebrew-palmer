@@ -6,7 +6,7 @@ class FloLlvm < Formula
   sha1     'ecafb425c67823d5100f68b62ef8e79badd43292'
 
   depends_on 'pkg-config' => :build
-  depends_on 'palmer-dabbelt/palmer/pconfigure' => :build
+  depends_on 'pconfigure' => :build
   depends_on 'palmer-dabbelt/palmer/libflo'
   depends_on 'llvm'
 
