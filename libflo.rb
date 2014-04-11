@@ -1,9 +1,9 @@
 require 'formula'
 
 class Libflo < Formula
-  url      'https://github.com/palmer-dabbelt/libflo/archive/v0.0.7.tar.gz'
+  url      'https://github.com/palmer-dabbelt/libflo/archive/v0.0.8.tar.gz'
   homepage 'https://github.com/palmer-dabbelt/libflo'
-  sha1     '2e58c3eb38ff3c3dd46c34450cf124f0ddda70af'
+  sha1     '1ab8ff7abf33f57499bd0cdeb42f1f3fab338744'
 
   depends_on 'pkg-config' => :build
   depends_on 'palmer-dabbelt/palmer/pconfigure' => :build
