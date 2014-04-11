@@ -6,7 +6,7 @@ class Libflo < Formula
   sha1     '1ab8ff7abf33f57499bd0cdeb42f1f3fab338744'
 
   depends_on 'pkg-config' => :build
-  depends_on 'palmer-dabbelt/palmer/pconfigure' => :build
+  depends_on 'pconfigure' => :build
 
   def install
     cl = File.open("Configfile.local", "w")
