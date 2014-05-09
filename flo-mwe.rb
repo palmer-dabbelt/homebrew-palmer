@@ -1,6 +1,6 @@
 require 'formula'
 
-class FloLlvm < Formula
+class FloMwe < Formula
   url      'https://github.com/palmer-dabbelt/flo-mwe/archive/v0.0.2.tar.gz'
   homepage 'https://github.com/palmer-dabbelt/flo-mwe'
 
