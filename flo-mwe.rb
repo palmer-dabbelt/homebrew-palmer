@@ -1,9 +1,9 @@
 require 'formula'
 
 class FloMwe < Formula
-  url      'https://github.com/palmer-dabbelt/flo-mwe/archive/v0.0.3.tar.gz'
+  url      'https://github.com/palmer-dabbelt/flo-mwe/archive/v0.0.4.tar.gz'
   homepage 'https://github.com/palmer-dabbelt/flo-mwe'
-  sha1     'ee8895cbced3966866461da06f108742dfe4b605'
+  sha1     '17f9ce6d853130d9ff9e2fef6fc9f7e9fd2a4419'
 
   depends_on 'pkg-config' => :build
   depends_on 'pconfigure' => :build
