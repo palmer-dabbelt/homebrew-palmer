@@ -9,6 +9,7 @@ class Vcd2step < Formula
   depends_on 'pconfigure' => :build
   depends_on 'libflo'
   depends_on 'vcddiff'
+  depends_on 'gmp'
 
   def install
     cl = File.open("Configfile.local", "w")
