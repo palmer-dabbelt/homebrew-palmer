@@ -1,9 +1,9 @@
 require 'formula'
 
 class Vcd2step < Formula
-  url      'https://github.com/palmer-dabbelt/vcd2step/archive/v0.0.1.tar.gz'
+  url      'https://github.com/palmer-dabbelt/vcd2step/archive/v0.0.2.tar.gz'
   homepage 'https://github.com/palmer-dabbelt/vcd2step'
-  sha1     '2e44ffa0223ea0ceaebe2c9eb897ac3724b92cce'
+  sha1     '9090487f75f9df53cfeb3d67198f111a26f7795c'
 
   depends_on 'pkg-config' => :build
   depends_on 'pconfigure' => :build
