@@ -1,9 +1,9 @@
 require 'formula'
 
 class ChiselBenchmarks < Formula
-  url      'https://github.com/palmer-dabbelt/chisel-benchmarks/archive/v20140623.1.tar.gz'
+  url      'https://github.com/palmer-dabbelt/chisel-benchmarks/archive/v20140623.3.tar.gz'
   homepage 'https://github.com/palmer-dabbelt/chisel-benchmarks'
-  sha1     '33f86ffa70bc04e72ef4890743b2c3f03c22cb74'
+  sha1     '7d9a373754e3542500fc953f73d6b51083cbb73f'
 
   depends_on 'pkg-config' => :build
   depends_on 'pconfigure' => :build
