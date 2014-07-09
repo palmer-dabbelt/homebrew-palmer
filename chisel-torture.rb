@@ -8,6 +8,7 @@ class ChiselTorture < Formula
   depends_on 'pkg-config' => :build
   depends_on 'pconfigure' => :build
   depends_on 'gmp'
+  depends_on 'libflo'
 
   def install
     cl = File.open("Configfile.local", "w")
