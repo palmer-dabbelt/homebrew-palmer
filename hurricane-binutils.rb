@@ -1,9 +1,9 @@
 require 'formula'
 
 class HurricaneBinutils < Formula
-  url      'https://github.com/palmer-dabbelt/hurricane-binutils/archive/v0.0.1.tar.gz'
+  url      'https://github.com/palmer-dabbelt/hurricane-binutils/archive/v0.0.2.tar.gz'
   homepage 'https://github.com/palmer-dabbelt/hurricane-binutils'
-  sha1     'd77e9db1bf828b923b6be55449a112483358ea83'
+  sha1     '43c0518b539ed29d1f85d81f43d29565d07466a1'
 
   depends_on 'pkg-config' => :build
   depends_on 'pconfigure' => :build
