@@ -16,4 +16,10 @@ class Pconfigure < Formula
     system "bash", "-ex", "./bootstrap.sh", "--prefix", "#{prefix}"
     system "make", "install"
   end
+
+  def patches
+    [
+     "https://github.com/palmer-dabbelt/pconfigure/commit/f86350e71b21be05050425c1ad06ebb4a814c1c4.patch",
+    ]
+  end
 end
