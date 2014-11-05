@@ -1,9 +1,9 @@
 require 'formula'
 
 class Pconfigure < Formula
-  url      'https://github.com/palmer-dabbelt/pconfigure/archive/v0.9.1.tar.gz'
+  url      'https://github.com/palmer-dabbelt/pconfigure/archive/v0.9.2.tar.gz'
   homepage 'https://github.com/palmer-dabbelt/pconfigure/'
-  sha1     '5fd088d940a726f1af81cf474f0532f5a00975e7'
+  sha1     '1471f4184ba550be64617386406ffdb5ba941b99'
 
   depends_on 'pkg-config' => :build
   depends_on 'talloc'
@@ -15,11 +15,5 @@ class Pconfigure < Formula
     system "sed", "-i", "bak", "s/make ||/make all all_install ||/", "bootstrap.sh"
     system "bash", "-ex", "./bootstrap.sh", "--prefix", "#{prefix}"
     system "make", "install"
-  end
-
-  def patches
-    [
-     "https://github.com/palmer-dabbelt/pconfigure/commit/f86350e71b21be05050425c1ad06ebb4a814c1c4.patch",
-    ]
   end
 end
