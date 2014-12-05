@@ -9,6 +9,7 @@ class Mhng < Formula
   depends_on 'pconfigure' => :build
   depends_on 'gpgme'
   depends_on 'lynx'
+  depends_on 'gitdate'
 
   def install
     cl = File.open("Configfile.local", "w")
