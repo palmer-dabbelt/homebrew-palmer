@@ -1,6 +1,6 @@
 require 'formula'
 
-class Libflo < Formula
+class Mhng < Formula
   url      'https://github.com/palmer-dabbelt/mhng/archive/v0.0.2.tar.gz'
   homepage 'https://github.com/palmer-dabbelt/mhng'
   sha1     '8279f81805388d5aebcb51cb3ee819304e09c894'
