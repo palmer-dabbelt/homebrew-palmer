@@ -10,6 +10,7 @@ class Mhng < Formula
   depends_on 'gpgme'
   depends_on 'lynx'
   depends_on 'gitdate'
+  depends_on 'gnutls'
 
   def install
     cl = File.open("Configfile.local", "w")
