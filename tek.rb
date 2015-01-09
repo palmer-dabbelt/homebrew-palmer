@@ -1,9 +1,9 @@
 require 'formula'
 
 class Tek < Formula
-  url      'https://github.com/palmer-dabbelt/tek/archive/v0.6.0.tar.gz'
+  url      'https://github.com/palmer-dabbelt/tek/archive/v0.7.0.tar.gz'
   homepage 'https://github.com/palmer-dabbelt/tek'
-  sha1     '8e62d6f5e79dc2f6fa59f925c77721fac6e7d184'
+  sha1     '5423a77c531bba292e70e3f0fb9d4353231c1f64'
 
   depends_on 'pkg-config' => :build
   depends_on 'pconfigure' => :build
