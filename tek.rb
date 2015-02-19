@@ -7,7 +7,7 @@ class Tek < Formula
 
   depends_on 'pkg-config' => :build
   depends_on 'pconfigure' => :build
-  depends_on 'inkscape'
+  depends_on 'homebrew/x11/inkscape'
   depends_on 'imagemagick'
 
   def install
