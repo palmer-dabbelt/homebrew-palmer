@@ -1,13 +1,13 @@
 require 'formula'
 
 class Tek < Formula
-  url      'https://github.com/palmer-dabbelt/tek/archive/v0.8.0.tar.gz'
+  url      'https://github.com/palmer-dabbelt/tek/archive/v0.9.0.tar.gz'
   homepage 'https://github.com/palmer-dabbelt/tek'
-  sha1     '5c6fb82d99515a4a788351d1c4fb65d1467a67d3'
+  sha1     '58720a1c28813f53abf266ada47fedb94540f2fc'
 
   depends_on 'pkg-config' => :build
   depends_on 'pconfigure' => :build
-  depends_on 'homebrew/x11/inkscape'
+  depends_on 'librsvg'
   depends_on 'imagemagick'
 
   def install
