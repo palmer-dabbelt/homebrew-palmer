@@ -1,9 +1,9 @@
 require 'formula'
 
 class FloLlvm < Formula
-  url      'https://github.com/palmer-dabbelt/flo-llvm/archive/v0.0.19.tar.gz'
+  url      'https://github.com/palmer-dabbelt/flo-llvm/archive/v0.0.20.tar.gz'
   homepage 'https://github.com/palmer-dabbelt/flo-llvm'
-  sha1     '6feecd05551291a3c02ab9ef3a2b2ed6e802c51c'
+  sha1     '39e8a1442e0bd08c3885330c5d29969d16167af4'
 
   depends_on 'pkg-config' => :build
   depends_on 'pconfigure' => :build
